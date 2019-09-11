@@ -16,8 +16,9 @@ body {
   margin: 0 auto;
 }
 
+/*  */
 header {
-  background: #d5e2e6;
+  background: #5857c1;
   padding: 100px 0;
   text-align: center;
   margin: 0 auto;
@@ -45,15 +46,19 @@ ul {
   float: left;
 }
 
+ul a {
+  color: #fff;
+}
+
 ul li {
   font-family: sans-serif;
-  font-size: 1.3rem;
+  font-size: 16px;
   transition: all .3s ease-in-out;
   cursor: pointer;
   float: left;
   display: inline-block;
-  padding: 14px 10px;
-  text-transform: capitalize;
+  padding: 10px 12px;
+  text-transform: uppercase;
 }
 
 ul a li:hover {
@@ -80,8 +85,11 @@ ul a li:hover {
 
 #projects {
   background: #d5e2e6;
-  /* margin: 10px 0 0 0; */
-  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* margin: 0 auto; */
+  /* padding: 10px; */
 }
 
 #projects:after {
@@ -90,17 +98,24 @@ ul a li:hover {
   clear: both;
 }
 
-a {
+#projects a {
   color: #fff;
   text-decoration: none;
   font-size: 1.7rem;
   font-family: sans-serif;
-  float: left;
+  margin: 0 auto;
+  /* float: left; */
 }
 
-.box-img {
-  width: 300px;
-  height: 300px;
+#projects a:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#projects a .box-img {
+  width: 280px;
+  height: 280px;
   background: #ccc;
   display: flex;
   align-items: center;
@@ -109,22 +124,27 @@ a {
   transition: all .3s ease-in-out;
 }
 
-.box-1 {
+#projects a .box-1 {
   background: rgba(51, 51, 204, .8);
   opacity: .7;
 }
 
-.box-2 {
+#projects a .box-2 {
   background: rgba(255, 102, 0, 0.7);
   opacity: .7;
 }
 
-.box-3 {
+#projects a .box-3 {
   background: rgb(102, 203, 240, 1);
   opacity: .7;
 }
 
-.box-img:hover {
+#projects a .box-4 {
+  background: rgb(8, 69, 179, 1);
+  opacity: .7;
+}
+
+#projects a .box-img:hover {
   /* background: yellow; */
   opacity: 1;
   color: #1b1b1b;
