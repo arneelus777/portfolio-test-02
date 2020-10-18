@@ -1,0 +1,52 @@
+Projects
+<section id="projects">
+
+        REAL ESTATE PROJECT
+        <a href="https://vigorous-kare-ca7d7b.netlify.com/" target="_blank">
+          <div class="box-img box-1"><h2>Real Estate 01</h2></div>
+        </a>
+
+        REAL ESTATE PROJECT 02
+        <a href="https://goofy-allen-b1704d.netlify.com" target="_blank">
+          <div class="box-img box-2"><h2>Real Estate 02</h2></div>
+        </a>
+
+        NYU CLONE PROJECT
+        <a href="https://quirky-bose-843841.netlify.com/" target="_blank">
+          <div class="box-img box-3"><h2>Health Care</h2></div>
+        </a>
+
+        STARBUCKS EMAIL - PLEASE REDO PROJECT
+        <a href="https://musing-curie-5eeaad.netlify.com/" target="_blank">
+          <div class="box-img box-4"><h2>Starbucks Email</h2></div>
+        </a>
+
+        HERO EMAIL FROM CODING PHASE PROJECT
+        <a
+          href="https://optimistic-franklin-e7ba7e.netlify.com/"
+          target="_blank"
+        >
+          <div class="box-img box-4"><h2>Hero Email</h2></div>
+        </a>
+
+        KAYAK EMAIL PROJECT
+        <a href="https://nifty-easley-8b5429.netlify.com/" target="_blank">
+          <div class="box-img box-1"><h2>Kayak Email</h2></div>
+        </a>
+
+        AIRBNB EMAIL PROJECT
+        <a href="https://upbeat-johnson-72da43.netlify.com/" target="_blank">
+          <div class="box-img box-1"><h2>Airbnb Email</h2></div>
+        </a>
+        
+        AFTER PAY EMAIL PROJECT
+        <a href="https://nifty-poincare-66cc73.netlify.com/#" target="_blank">
+          <div class="box-img box-3"><h2>AfterPay Email</h2></div>
+        </a>
+      </section>
+
+
+Skills
+
+<h1>Skills</h1>
+        <p>Proficient in html, css, javascipt, git, sql, webpack, gulp</p>

@@ -1,0 +1,32 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+.skills-container {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.skills-container .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 18px;
+    text-align: center;
+    /* margin-right: 10px; */
+    /* background: red; */
+}
+.skills-container .skills i {
+    color: var(--bright-blue);
+    font-size: 60px;
+    margin-bottom: 12px;
+    /* font-weight: 600; */
+}
+.skills-container .skills .skill-title {
+    font-size: 24px;
+    font-weight: 700;
+}

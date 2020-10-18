@@ -1,0 +1,116 @@
+.projects {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    /* background-color: #ffd700; */
+    margin-top: 50px;
+    width: 100%;
+  }
+  .projects h2 {
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .projects .email-projects-container {
+    /* background-color: red; */
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+    transition: all .3s ease-in-out;
+  }
+  .projects .email-projects-container .project-container {
+    /* background-color: blue; */
+    width: 250px;
+    overflow: hidden;
+    border: 1px solid var(--offblack);
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all .3s ease-in-out;
+  }
+  .projects .email-projects-container .project-container:hover {
+    /* transform: scale(.8); */
+  
+  }
+  .projects .email-projects-container .project-container a {
+    width: 100%;
+    height: 250px;
+    position: relative;
+  
+  }
+  .projects .email-projects-container .project-container a .img-container {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    background-image: url("../img/hero-email.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all .3s ease-in;
+  }
+  .projects .email-projects-container .project-container a .img-container.kayak {
+    background-image: url("../img/kayak-email.png");
+  }
+  .projects .email-projects-container .project-container a .img-container.afterpay{
+    background-image: url("../img/afterpay-email.png");
+  }
+  .projects .email-projects-container .project-container a .img-container.airbnb{
+    background-image: url("../img/airbnb-email.png");
+  }
+  .projects .email-projects-container .project-container a .img-container.nyu-langone-clone{
+    background-image: url("../img/nyu-langone-clone.png");
+  }
+  .projects .email-projects-container .project-container a .img-container .img-overlay {
+    background-color: var(--blue-shade);
+    opacity: .5;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    transition: all .5s ease-in;
+    z-index: 3;
+  }
+  
+  .projects .email-projects-container .project-container a .img-container .img-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    z-index: 1;
+    font-size: 40px;
+    font-weight: 500;
+    /* color: var(--blue-shade); */
+    color: #fff;
+    opacity: 0;
+    transition: all .4s ease-out;
+  }
+  .projects .email-projects-container .project-container a .img-container:hover .img-overlay {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0d78ff+8,ffd700+100 */
+  background: #0d78ff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #0d78ff 8%, #ffd700 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  #0d78ff 8%,#ffd700 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  #0d78ff 8%,#ffd700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d78ff', endColorstr='#ffd700',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  
+  
+    opacity: 1;
+    z-index: 1;
+  }
+  .projects .email-projects-container .project-container a .img-container:hover .img-title {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+  
+  /* Media Queries */
+  @media(max-width: 1140px) {
+    .projects .email-projects-container {
+      grid-template-columns: 1fr 1fr;
+    }
+    .projects .email-projects-container .project-container a .img-container {
+      width: 100%;
+      height: 200px;
+  }

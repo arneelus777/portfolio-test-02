@@ -6,20 +6,21 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Portfolio-Test-02</title>
+    <title>Contact Page</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="../css/main.css" />
   </head>
 
   <body>
     <nav>
       <div class="topic">
-        <a href="#">
+        <!-- HOME PAGE -->
+        <a href="../index.html">
           <svg
             width="1em"
             height="1em"
@@ -41,7 +42,8 @@
         </a>
       </div>
       <div class="topic">
-        <a href="/pages/projects.html">
+        <!-- PROJECTS PAGE -->
+        <a href="projects.html">
           <svg
             width="1em"
             height="1em"
@@ -59,7 +61,8 @@
         </a>
       </div>
       <div class="topic">
-        <a href="/pages/skills.html">
+        <!-- SKILLS PAGE -->
+        <a href="skills.html">
           <svg
             width="1em"
             height="1em"
@@ -81,7 +84,8 @@
         </a>
       </div>
       <div class="topic">
-        <a href="/pages/contact.html">
+        <a href="#">
+          <!-- CONTACT PAGE -->
           <svg
             width="1em"
             height="1em"
@@ -99,7 +103,8 @@
         </a>
       </div>
       <div class="topic">
-        <a href="/pages/resume.html">
+        <!-- RESUME PAGE -->
+        <a href="resume.html">
           <svg
             width="1em"
             height="1em"
@@ -126,9 +131,51 @@
         <i class="fas fa-bars"></i>
       </div>
       <header>
-        <h1>ARNEELUS PORTFOLIO</h1>
+        <h1>CONTACT PAGE</h1>
       </header>
+      <form action="contact.html" method="GET">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter name"
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter email"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Enter message"
+          ></textarea>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <div class="social-media">
+        <div class="social-media-container">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-codepen"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
     </div>
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
   </body>
 </html>

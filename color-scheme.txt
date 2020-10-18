@@ -1,0 +1,21 @@
+Gold with split-complementary color theme
+
+COLORS 
+ #FFD700 - GOLD - base  color
+
+from left to right
+COLORS
+color 1 = #1259B3
+color 2 = #0D78FF
+color 2 substitute = #0cbdff 
+color 3 = #FFD700
+color 4 = #7712B3
+color 5 = #A50DFF
+lighter purple
+color 6 = #9930d7
+
+OTHER COLORS
+Background color
+offwhite - rgba(230, 230, 230, .10) OR #e6e6e61a
+
+ADD A RED COLOR TO SPICE IT UP
