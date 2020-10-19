@@ -17,6 +17,7 @@
   --purple: #A50DFF;
   --light-purple: #9930d7;
   --offblack: #1b1b1b;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -26,10 +27,11 @@
 }
 
 body {
-  height: 100vh;
+  height: 300vh;
   width: 100%;
   margin: 0;
   font-family: "Lato", "Monospace", "Roboto", sans-serif;
+  /* transition: all .3s ease-in-out; */
   /* transform: translateX(150px); */
 }
 a {
@@ -99,13 +101,28 @@ nav .topic a:hover .topic-title {
   background-color: rgba(230, 230, 230, .10);
   position: absolute;
   right: 0;
-  margin: 14px 0;
+  /* margin: 14px 0; */
+  padding: 20px 50px;
 }
 .content-area header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  /* margin-top: 50px; */
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.content-area header .header-img {
+  width: 100%;
+  height: 100%;
+  background: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+
 }
 .content-area header h1  {
   font-size: 42px;
@@ -115,7 +132,38 @@ nav .topic a:hover .topic-title {
   color: #ffd700;
   background-color: #0cbdff;
   padding: 52px 20px;
+  position: absolute;
+  z-index: 3;
 }
+.content-area header .down {
+  width: 50px;
+  height: 50px;
+  /* background: blue; */
+  /* align-self: flex-end; */
+  position: relative;
+  z-index: 3;
+  transform: translateY(150px);
+  cursor: pointer;
+  animation: down-arrow .7s ease-in-out .5s alternate infinite none running;
+  opacity: 0;
+
+}
+@keyframes down-arrow {
+  from {
+    transform: translateY(150px);
+    opacity: .1;
+  }
+  to {
+    transform: translateY(200px);
+    opacity: 1;
+  }
+}
+.content-area header .down .bi-arrow-down-circle {
+  font-size: 50px;
+  color: var(--base-gold);
+
+}
+/* ARROW ANIMATION */
 .content-area .burger-menu {
   /* background: red; */
   position: absolute;

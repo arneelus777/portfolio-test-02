@@ -64,6 +64,9 @@
   .projects .email-projects-container .project-container a .img-container.nyu-langone-clone{
     background-image: url("../img/nyu-langone-clone.png");
   }
+  .projects .email-projects-container .project-container a .img-container.sct-clone{
+    background-image: url("../img/sct-clone.png");
+  }
   .projects .email-projects-container .project-container a .img-container .img-overlay {
     background-color: var(--blue-shade);
     opacity: .5;
