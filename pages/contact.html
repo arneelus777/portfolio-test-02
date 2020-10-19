@@ -133,7 +133,7 @@
       <header>
         <h1>CONTACT PAGE</h1>
         <div class="down" id="down-arrow-wrapper">
-          <a href="#form">
+          <a href="#form-container">
             <svg
               width="1em"
               height="1em"
@@ -155,46 +155,48 @@
           </a>
         </div>
       </header>
-      <form action="contact.html" method="GET" id="form">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Enter name"
-            required
-          />
-          <label for="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Enter email"
-            required
-          />
-          <textarea
-            name="message"
-            id="message"
-            placeholder="Enter message"
-          ></textarea>
-          <button type="submit">Submit</button>
-        </div>
-      </form>
-      <div class="social-media">
-        <div class="social-media-container">
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-codepen"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
+      <div class="form-container" id="form-container">
+        <form action="contact.html" method="GET" id="form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter name"
+              required
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter email"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Enter message"
+            ></textarea>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+        <div class="social-media">
+          <div class="social-media-container">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-codepen"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
